@@ -16,8 +16,11 @@ export default function Home() {
       <h1 style={{color: 'red', border: '1px solid black'}}>Welcome Nextjs</h1>
       <p className="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit qui, cumque officia deserunt totam obcaecati minus quis perferendis porro voluptate praesentium accusantium quod quasi laboriosam dolores est voluptatem tempora aliquam.</p>
       <img src="/images/shopee-LOGO.png" alt="" width="150" />
-      <style jsx>
+      <style global>
         {`
+        body{
+          background-color: pink;
+        }
           .desc{
             background-color: yellow;
           }
